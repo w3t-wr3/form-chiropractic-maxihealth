@@ -3,7 +3,7 @@
   "framework": "html",
   "entryPoint": "index.html",
   "buildCommand": "",
-  "startCommand": "npx --yes serve -p 3000",
+  "startCommand": "node server.js",
   "environmentVariables": {},
   "include": [
     "**/*.html",

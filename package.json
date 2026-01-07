@@ -5,14 +5,15 @@
   "main": "index.html",
   "type": "module",
   "scripts": {
-    "dev": "npx --yes serve -p 3000",
-    "start": "npx --yes serve -p 3000",
+    "dev": "node server.js",
+    "start": "node server.js",
     "build": "echo 'Static HTML site - no build needed'",
-    "preview": "npx --yes serve -p 3000"
+    "preview": "node server.js"
   },
   "files": [
     "index.html",
     "*.html",
+    "server.js",
     "css/**",
     "js/**",
     "images/**",
