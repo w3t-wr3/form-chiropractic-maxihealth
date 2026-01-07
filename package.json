@@ -1,0 +1,18 @@
+{
+  "name": "form-chiropractic-maxihealth",
+  "version": "1.0.0",
+  "description": "Form Chiropractic website - Kansas City chiropractic care",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx http-server . -p 3000"
+  },
+  "keywords": [
+    "chiropractic",
+    "healthcare",
+    "static-site"
+  ],
+  "author": "Form Chiropractic",
+  "license": "MIT"
+}
